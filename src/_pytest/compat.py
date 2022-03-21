@@ -198,7 +198,6 @@ if sys.version_info < (3, 7):
     def nullcontext():
         yield
 
-
 else:
     from contextlib import nullcontext as nullcontext  # noqa: F401
 
